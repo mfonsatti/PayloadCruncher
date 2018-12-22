@@ -11,6 +11,12 @@ $payload = [
     "worksOn" => [
       0 => "PHP",
       1 => "symfony"
+    ],
+    "commitOn" => [
+      0 => "GitHub",
+      1 => [
+        0 => "PayloadCruncher"
+      ]
     ]
   ],
   "ide" => [
@@ -31,6 +37,10 @@ $payload = [
   "userWorksOn" => [
     0 => "PHP",
     1 => "symfony"
+  ],
+  "commitOn_0" => "GitHub",
+  "commitOn_1" => [
+    0 => "PayloadCruncher"
   ],
   "ideDataVersion" => 2018
 ];
