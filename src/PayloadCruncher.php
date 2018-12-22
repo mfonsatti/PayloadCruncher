@@ -9,6 +9,13 @@
 class PayloadCruncher
 {
     /**
+     * PayloadCruncher constructor.
+     */
+    public function __construct()
+    {
+    }
+
+    /**
      * @param array $payload
      * @param array $keyChain
      * @param array $results
@@ -38,7 +45,7 @@ class PayloadCruncher
                     }
                     array_pop($keyChain);
                 } else {
-                    payloadCruncher($value, $keyChain, $results);
+                    $this->payloadCruncher($value, $keyChain, $results);
                 }
             } else {
                 $results[lcfirst(implode("", $keyChain) . ucfirst($key))] = $value;
