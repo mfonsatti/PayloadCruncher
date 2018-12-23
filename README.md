@@ -38,8 +38,8 @@ $payload = [
     0 => "PHP",
     1 => "symfony"
   ],
-  "commitOn_0" => "GitHub",
-  "commitOn_1" => [
+  "userCommitOn_0" => "GitHub",
+  "userCommitOn_1" => [
     0 => "PayloadCruncher"
   ],
   "ideDataVersion" => 2018
